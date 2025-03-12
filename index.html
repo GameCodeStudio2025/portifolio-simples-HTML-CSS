@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameCode Studio - Portfólio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #00aaff;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .projeto {
+            background-color: #1f1f1f;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .projeto:hover {
+            transform: translateY(-5px);
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.7);
+        }
+
+        a {
+            color: #00aaff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0088cc;
+            text-decoration: underline;
+        }
+
+        .botao {
+            display: inline-block;
+            background-color: #00aaff;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .botao:hover {
+            background-color: #0088cc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GameCode Studio</h1>
+        <p>Desenvolvedor Web | Criador de Templates</p>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor apaixonado por criar sites bonitos e funcionais.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projeto">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto.</p>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 2</h3>
+            <p>Outro projeto interessante.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Me encontre no <a href="#">LinkedIn</a> ou <a href="#">GitHub</a>.</p>
+        <br>
+        <a href="#" class="botao">Entre em Contato</a>
+    </section>
+
+    <section id="download">
+        <h2>Baixe Este Template</h2>
+        <p>Clique no botão abaixo para baixar o template e usar em seu próprio site.</p>
+        <a href="https://seu-link-para-download.com" class="botao">Baixar Template</a>
+    </section>
+</body>
+</html>
